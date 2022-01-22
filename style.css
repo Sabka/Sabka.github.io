@@ -1,0 +1,113 @@
+
+
+/* GENERAL */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.img_scaling{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center_vert{
+    margin: auto;
+}
+
+.offset_top{
+    margin-top: 5vh;
+}
+
+.page{
+    margin-top: 4vh;
+    margin-bottom: 15vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offset_h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a{
+    margin: auto;
+}
+
+a:hover{color: #fff;}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #adb3bb;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.visit{
+    text-align: center;
+    margin-top: 8vh;
+    color: rgb(0, 150, 149);
+}
+

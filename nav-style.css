@@ -1,0 +1,64 @@
+
+
+/* NAVIGATION */
+
+.nav{
+    position: relative;
+    height: 10vh;
+    background-image: url("pictures/logo-nove.png");
+    background-repeat: no-repeat;
+    background-color: rgb(0, 150, 149);
+    padding-left: 200px;
+    background-size: contain;
+}
+
+.nav-link{
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.offset_nav_link{
+    margin-left: 200px;
+}
+
+
+.under-nav {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+.under-nav:after {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.under-nav:hover:after {
+    width: 100%;
+    left: 0;
+    color: white
+}
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+.margin-bot{
+    margin-bottom: 6px;
+}

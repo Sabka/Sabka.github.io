@@ -1,0 +1,31 @@
+
+/* FOOTER */
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    align-content: center;
+}
+
+
+.footer{
+    height: 8vh;
+    width: 100%;
+    background-color: #adb3bb;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    align-content: center;
+}
+
+
+
+.foot_text:hover{
+    color: rgb(0, 150, 149);
+    text-decoration: none;
+}
+
+.col_centering{
+    text-align: center;
+}
